@@ -18,7 +18,7 @@ const Layout = ({ children }: Props) => {
             <body style={{ margin: 0, padding: 0, boxSizing: 'border-box', height: '100vh' }}>
                 <Header />
                 <Container component="section" maxWidth="lg">
-                    <Box sx={{ marginTop: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <Box>
                         {children}
                     </Box>
                 </Container>
